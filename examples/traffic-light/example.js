@@ -17,6 +17,6 @@ rSm(stateMachineDescriptor, function (err, machine) {
 		machine.setState('red');//undefined->red, ok return true
 		machine.setState('green');//not possible, return false
 		machine.setState('yellow');//red->yellow, ok return true
-		machine.getPossibilities();//returns ['green'] because the red "on" condition returns false
+		console.log(machine.getPossibilities());// ['green'] because the red "on" condition returns false
 	}
 });

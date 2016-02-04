@@ -1,0 +1,30 @@
+{
+  "name": "r-sm",
+  "version": "0.2.0",
+  "description": "Create a very simple state machine in javascript",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarkiroka/r-sm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarkiroka/r-sm/issues"
+  },
+  "keywords": [
+    "state",
+    "machine",
+    "statemachine",
+    "finite",
+    "state",
+    "machine",
+    "fsm",
+    "sm"
+  ],
+  "homepage": "https://github.com/sarkiroka/s-crypt#readme",
+  "dependencies": {},
+  "author": "sarkiroka",
+  "license": "ISC"
+}

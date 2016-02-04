@@ -1,0 +1,23 @@
+{
+  "_simpleStateHolderPath": "light",
+  "green": [
+	"yellow"
+  ],
+  "red": [
+	{
+	  "to": "yellow"
+	}
+  ],
+  "yellow": [
+	{
+	  "to": "green",
+	  "condition": "can-green.js",
+	  "on": "on-green.js"
+	},
+	{
+	  "to": "red",
+	  "condition": "can-red.js",
+	  "on": "on-red.js"
+	}
+  ]
+}
